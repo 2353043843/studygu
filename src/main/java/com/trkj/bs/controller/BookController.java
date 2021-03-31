@@ -18,6 +18,7 @@ public class BookController {
     @PostMapping("/get")
     public List<BookType> getall(){
         List<BookType> list=bookService.getall();
+        System.out.println("hc116");
         return list;
     }
 }
